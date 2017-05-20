@@ -8,8 +8,8 @@
     "start": "parallelshell \"npm run watch\" \"npm run http\"",
     "http": "http-server ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "DARKGuy",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
