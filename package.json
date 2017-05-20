@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --watch --progress --config webpack.dev.js",
     "start": "parallelshell \"npm run watch\" \"npm run http\"",
-    "http": "http-server ."
+    "http": "http-server --cors -o -c-1 ."
   },
   "author": "DARKGuy",
   "license": "MIT",
